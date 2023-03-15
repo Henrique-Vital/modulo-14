@@ -1,0 +1,59 @@
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+.navbar {
+    background-color: #112030;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #ececec;
+    color:#112030;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover ,
+.nav-portifolio .nav-link.active:hover {
+    color:#ececec;
+}
+
+.navbar-toggler {
+    background-color: #cbaf87;
+}
+.section-title {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+#sobre-a-empresa, #portifolio {
+    background-color: #cbaf87;
+}
+
+.text-colored {
+    color: #112030;
+}
+
+.nav-portifolio .nav-link.active,
+#fale-conosco button {
+    background-color: #112030;
+    color: #ececec;
+}
+
+.nav-portifolio .nav-link:hover {
+    color: #112030;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px
+    }
+}
